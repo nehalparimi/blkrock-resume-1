@@ -1,0 +1,283 @@
+/*============== Main Styles =========== */
+body {
+    font-size: 24px;
+    color: #868e96;
+    padding-left: 21.25vw;
+    margin: 0;
+    padding-top: 0px;
+    font-family: 'muli',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol',
+    'Noto Color Emoji';
+}
+
+/* ========== Redesign of Containers (starting Eductation) ========= */
+.nouv-100 {
+    width: 100%;
+}
+.tete-100 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2em 0;
+}
+.sous-100 > p {
+    font-size: 1rem;
+}
+
+/* =========== Navigation Styles ========== */
+.navbar {
+    background-color: rgb(189, 93, 56);
+    height: 100vh;
+    width: 21.25vw;
+    position: fixed; 
+    box-sizing: border-box;
+    padding-top: 6.8em;
+    top: 0;
+    left: 0;
+}
+#helper-list {
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1em;
+}
+.navbar-nav {
+    padding: 0;
+    left: 0;
+    margin-top: 0.3em;
+    text-align: center;
+
+}
+.navbar-list {
+    box-sizing: border-box;
+}
+.navimage > img {
+    height: 150px;
+    width: 150px;
+    border-radius: 99px;
+    border: .5rem solid rgba(255, 255, 255, .2);
+    
+}
+.nav-item {
+    list-style: none;
+    padding: 0.5em 0;
+    font-size: 1.0rem;
+}
+.nav-item > a {
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    color: rgb(221, 166, 144);
+
+}
+.nav-item > a:hover {
+    color: rgb(228, 212, 206)
+}
+/* For scrolling */
+.nav-item > .nav-item-selected {
+    color: white;
+}
+
+/* =========== Container styles ============ */
+.container {
+    box-sizing: border-box;
+}
+
+.info-content {
+    border-bottom: 1px solid rgb(230, 224, 224);
+    box-sizing: border-box;
+    padding: 3rem;
+    min-height: 100vh;
+}
+.info-content-home {
+    display: flex;
+    align-items: center;
+}
+
+/* Inner Styles */
+.info-details {
+    box-sizing: border-box;
+    text-align: left;
+    width: 100%;
+    /* padding: 3rem 0; */
+}
+.info-details > p {
+    font-size: 1rem;
+    line-height: 1.5em;
+}
+.info-details > p:first-child {
+    margin-top: 0;
+}
+.subheading-contact-info {
+    font-size: 1.5rem;
+    letter-spacing: 0.02rem;
+    font-weight: 500;
+    color: #808891;
+    
+}
+.subheading-contact-info > a {
+    color: rgb(189, 93, 56);
+}
+
+/* ========= Text Styles ========= */
+
+.title-name {
+    display: inline-block;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(52, 58, 64);
+    margin: 0;
+    line-height: 5.5rem;
+}
+.title-last-name {
+    padding-left: 12px;
+    color: rgb(189, 93, 56);
+    font-weight: 700;
+}
+.header-bio {
+    font-size: 1.1rem;
+    line-height: 150%;
+    margin: 3em 0;
+}
+.info-section-header {
+    font-size: 3.5rem;
+    color: rgb(52, 58, 64);
+    text-transform: uppercase;
+    margin: auto;
+    margin-bottom: 2.3rem;
+}
+/* Employment Section Structuring and Font */
+.w-100 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+    justify-content: space-between;
+}
+.ed-50 {
+    color: rgb(52, 58, 64);
+    font-size: 2rem;
+}
+.ed-25 {
+    font-weight: 500;
+}
+.ed-cap {
+    margin: 0;
+    text-transform: uppercase;
+}
+.employment-time {
+    font-size: 1rem;
+    color: rgb(189, 93, 56);
+    text-align: right;
+    box-sizing: border-box;
+    margin-left: 1em;
+}
+.info-details-employment {
+    max-width: 50vw;
+    box-sizing: border-box;
+    margin-right: 2em;
+}
+.info-details-employment > p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.info-details-employment.info-details-education {
+    min-width: 50vw;
+
+}
+
+/* ====== Social Link Styles ======== */
+.social-media {
+    display: flex;
+    box-sizing: border-box;
+}
+.social-link {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 2.3em;
+    height: 2.3em;
+    background-color: rgb(73, 80, 87);
+    color: white;
+    border-radius: 99px;
+    /* change when images are used? */
+    text-align: center;
+    margin-right: 0.8em;
+}
+.social-link .fab {
+    padding: 10%;
+    padding-top: 28%;
+    min-height: 2em;
+}
+.social-link:hover {
+    background-color: rgb(189, 93, 56);
+}
+
+/* Skills */
+.skill-list {
+    padding: 0;
+}
+.skill-list-item {
+    font-size: 1rem;
+    display: list-item;
+    max-height: 24px;
+    list-style: none;
+}
+.skill-list-item > i {
+    padding-right: 7px;
+}
+.skills-img-porte > i:hover {
+    color: rgb(189, 93, 56);
+}
+.skills-img-porte > .fab {
+    padding: 0;
+    margin-right: 0.2em;
+}
+
+.ed-cap-skill {
+    text-transform: uppercase;
+    font-size: 1em;
+}
+/* Font change only; cosmetic */
+.main-headers {
+    font-family: 'Saira Extra Condensed';
+}
+
+/* ========= Achievement Section ========= */
+.achieve-list {
+    padding-inline-start: 10px;
+}
+.achieve-list > li{
+    font-size: 0.65em;
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+.achieve-list > li > i {
+    color: rgb(255, 193, 7);
+    padding-right: 3px;
+}
+/* ========= Experimental ========= */
+.notification {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(125, 194, 131);
+    color: rgb(41, 83, 45);
+    border-radius: 10px;
+    border: 1px solid rgb(41, 83, 45);
+    box-sizing: border-box;
+    margin-top: 10px;
+    text-align: center;
+}
+.notification.disappear {
+    transition: 1.5s;
+    margin-top: -100px !important;
+}
